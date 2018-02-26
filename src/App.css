@@ -26,3 +26,40 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.CharComponent {
+  padding: .5em;
+  margin: .5em;
+  display: inline;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  border-bottom: medium solid orange;
+  cursor: pointer;
+}
+
+.UsernameBuilder {
+  margin: 4em auto;
+  text-align: center;
+}
+
+.UsernameBuilder p:nth-child(1) {
+  text-decoration: underline;
+}
+
+.UsernameBuilder input {
+  padding: .5em 1em;
+  letter-spacing: .025em;
+  border: thin solid gainsboro;
+  border-radius: .35em;
+}
+
+.UsernameBuilder p:nth-child(3) {
+  line-height: 3em;
+  font-weight: bold;
+  color: red;
+}
+
+.UsernameBuilder .success {
+  color: green !important;
+}
+
